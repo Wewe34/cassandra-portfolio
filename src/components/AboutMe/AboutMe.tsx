@@ -21,7 +21,7 @@ const AboutMe = () => {
             Software Engineer with 3+ years experience producing fullstack React web applications. 
             I have a love for creating and solving problems that led to my discovery of coding!  
             </p>
-            {/* <div className="flex flex-col justify-center justify-between">
+            <div className="flex justify-center justify-around">
                     <img src="/linkedin-logo.png" 
                          alt="blue square with white letters"
                          className="w-12 my-3 mx-2" />
@@ -31,7 +31,7 @@ const AboutMe = () => {
                     <img src="/mail.png" 
                          alt="black mail icon"
                          className="w-10 my-3 mx-2" />
-            </div> */}
+            </div>
         </div>
     )
 }

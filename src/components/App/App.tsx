@@ -12,6 +12,7 @@ function App() {
        <Skills />
        <Resume />
        <Projects />
+
     </div>
   );
 }
