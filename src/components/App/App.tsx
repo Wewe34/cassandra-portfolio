@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
+import Projects from '../Projects/Projects';
 import Resume from '../Resume/Resume';
 import Skills from '../Skills/Skills';
 import './App.css';
@@ -10,6 +11,7 @@ function App() {
        <AboutMe />
        <Skills />
        <Resume />
+       <Projects />
     </div>
   );
 }
