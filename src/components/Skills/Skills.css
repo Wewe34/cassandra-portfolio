@@ -1,0 +1,12 @@
+.bar {
+    position: relative;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+
+.bar div {
+    position: relative;
+    height: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
