@@ -9,10 +9,10 @@ import './App.css';
 function App() {
   return (
     <div className="App bg-pink-300">
-       <AboutMe />
-       <Skills />
-       <Resume />
-       <Projects />
+      <AboutMe />
+      <Skills />
+      <Resume />
+      <Projects />
       <Contact />
     </div>
   );

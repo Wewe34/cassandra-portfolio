@@ -3,11 +3,13 @@ import "./Resume.css";
 
 const Resume = () => {
     return (
-        <div>
-            <p className="text-4xl pb-3 font-bold line-through pt-10">RESUME</p>
-                <div id="resume-container" className="bg-white bg-opacity-70 rounded-lg m-3 pb-3">
-                    <div id="work-experience" className="mx-3">
-                    <p className="text-2xl font-bold py-3">Work Experience</p>
+        <div className="py-20">
+            <div id="resume-container" className="bg-white bg-opacity-70 rounded-lg m-3 pb-3">
+                <p className="text-4xl pb-3 font-bold line-through pt-10">RESUME</p>
+                <div id="work-experience" className="mx-3">
+                    <p className="pb-3 italic">I'm loving my growth.</p>
+                    <p className="pb-3">Visit my <span className="font-bold underline text-blue-500">LinkedIn</span>.</p>
+                    <p className="text-2xl font-bold pb-3">Work Experience</p>
                     <div className="text-left mx-2 bg-white rounded-lg bg-opacity-70">
                         <div id="job-1" className="mx-3">
                             <p className="text-lg text-blue-500 font-bold pt-3">Cognizant Technology Solutions</p>
@@ -50,7 +52,7 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
-                <div id="education">
+                <div id="education" className="mx-3">
                     <p className="text-2xl font-bold py-3">Education</p>
                     <div className="text-left mx-2 px-3 py-3 bg-white rounded-lg bg-opacity-70">
                         <div id="education-1" className="pb-3">

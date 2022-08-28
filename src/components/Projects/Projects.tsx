@@ -2,9 +2,6 @@ import React, { SyntheticEvent, useState } from "react";
 import Modal from 'react-modal';
 import { defendingDoryURL, pixaliveURL } from "../../utils/constants";
 
-interface IHandleModalEvents {
-    event: HTMLInputElement;
-}
 
 const Projects = () => {
 
@@ -30,9 +27,12 @@ const Projects = () => {
     }
 
     return (
-        <div id="projects" className="mx-3">
-            <p className="text-4xl pb-3 py-7 font-bold line-through">PROJECTS</p>
-            <div id="project-1" className="mb-4 bg-black rounded-lg px-3">
+        <div id="projects" className="mx-3 pb-3 bg-white bg-opacity-70 rounded-lg">
+            <p className="text-4xl pb-3 mb-3 py-10 font-bold line-through">PORTFOLIO</p>
+            <p className="pb-3 mx-3 italic">I love creating interactive visual applications.</p>
+            <p className="pb-3">Check out some of my projects below.</p>
+            <p className="pb-3">Visit my <span className="font-bold underline text-blue-500">Github</span> to see more projects.</p>
+            <div id="project-1" className="mb-4 bg-black rounded-lg px-3 mx-3">
                 <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Defending Dory</p>
                 <img 
                     className="border-2 border-white rounded-lg" 
@@ -74,17 +74,17 @@ const Projects = () => {
                         <p className="py-2">Role: Sole Developer</p>
                         <p>Responsibilities:</p>
                         <ul>
-                            <li>Created objects that extended from the Phaser class in order to configure the game and scenes</li>
-                            <li>Formed methods to allow for gameplay</li>
-                            <li>DIncorporated physics on colliding sprite objects</li>
+                            <li>Utilized Phaser.js framework in order to configure gaming objects, sprites and scenes</li>
+                            <li>Created customized methods to allow for functionality for game object</li>
+                            <li>Incorporated physics on colliding sprite objects</li>
                             <li>Served up static files with Express.js</li>
-                            <li>ustomized and edited assets with Affinity Photo (Professional Photo Editing Software)</li>
+                            <li>Customized and edited assets with Affinity Photo (Professional Photo Editing Software)</li>
                         </ul>
                     </div>
                 </Modal>
             </div>
-            <div id="project-2" className="mb-7 bg-black rounded-lg px-3">
-                <p className="font-bold text-left text-2xl pl-3 py-2 text-yellow-400">Pixalive</p>
+            <div id="project-2" className="mb-7 bg-black rounded-lg px-3 mx-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Pixalive</p>
                 <img className="border-2 border-white rounded-lg" src="/pixalive.PNG" alt="art canvas with pixel art" />
                 <div className="flex justify-center justify-around">
                     <button 
