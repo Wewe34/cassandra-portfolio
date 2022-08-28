@@ -30,13 +30,20 @@ const Projects = () => {
     }
 
     return (
-        <div id="projects">
-            <p>Projects</p>
-            <div id="project-1">
-                <img src="/defending-dory.PNG" alt="three sharks surround a fish underwater" />
+        <div id="projects" className="mx-3">
+            <p className="text-4xl pb-3 py-7 font-bold line-through">PROJECTS</p>
+            <div id="project-1" className="mb-4 bg-black rounded-lg px-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Defending Dory</p>
+                <img 
+                    className="border-2 border-white rounded-lg" 
+                    src="/defending-dory.PNG" 
+                    alt="three sharks surround a fish underwater" />
                 <div className="flex justify-center justify-around">
-                    <p>Defending Dory</p>
-                    <button id="defending-dory-details" onClick={openModal} className="bg-gray-300">View Details</button>
+                    <button id="defending-dory-details" 
+                            onClick={openModal} 
+                            className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                                View Details
+                    </button>
                 </div>
                 <Modal
                     isOpen={doryModalStateOpen}
@@ -45,18 +52,47 @@ const Projects = () => {
                     shouldCloseOnEsc={true}
                     >
                     <div className="flex justify-between">
-                        <p className="text-xl pb-7">Defending Dory</p>
-                        <button id="defending-dory-modal-close" onClick={closeModal} className="pb-7">X</button>
+                        <p className="text-2xl pb-7 font bold">Defending Dory</p>
+                        <button id="defending-dory-modal-close" onClick={closeModal} className="pb-7 text-4xl text-blue-500">X</button>
                     </div>
+                    <img 
+                        className="border-2 border-white rounded-lg pb-3" 
+                        src="/defending-dory.PNG" 
+                        alt="three sharks surround a fish underwater" />
                     <p>Defending Dory is a single player dodge game made for desktop.</p>
-                    <button onClick={() => window.location.href= defendingDoryURL} className="bg-gray-300">View Game</button>
+                    <div className="flex justify-center">
+                        <button 
+                            onClick={() => window.location.href= defendingDoryURL} 
+                            className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3 m-4">
+                                Visit Site
+                        </button>
+                    </div>
+                    <div>
+                        <p className="py-2">
+                            Tech Stack: JavaScript, Phaser 3 (HTML5 game framework), Express.js
+                        </p>
+                        <p className="py-2">Role: Sole Developer</p>
+                        <p>Responsibilities:</p>
+                        <ul>
+                            <li>Created objects that extended from the Phaser class in order to configure the game and scenes</li>
+                            <li>Formed methods to allow for gameplay</li>
+                            <li>DIncorporated physics on colliding sprite objects</li>
+                            <li>Served up static files with Express.js</li>
+                            <li>ustomized and edited assets with Affinity Photo (Professional Photo Editing Software)</li>
+                        </ul>
+                    </div>
                 </Modal>
             </div>
-            <div id="project-2">
-                <img src="/pixalive.PNG" alt="art canvas with pixel art" />
+            <div id="project-2" className="mb-7 bg-black rounded-lg px-3">
+                <p className="font-bold text-left text-2xl pl-3 py-2 text-yellow-400">Pixalive</p>
+                <img className="border-2 border-white rounded-lg" src="/pixalive.PNG" alt="art canvas with pixel art" />
                 <div className="flex justify-center justify-around">
-                    <p>Pixalive</p>
-                    <button id="pixalive-details" onClick={openModal} className="bg-gray-300">View Details</button>
+                    <button 
+                        id="pixalive-details" 
+                        onClick={openModal} 
+                        className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                            View Details
+                    </button>
                 </div>
                 <Modal
                     isOpen={pixaliveModalStateOpen}
@@ -64,11 +100,27 @@ const Projects = () => {
                     shouldCloseOnOverlayClick={false}
                     shouldCloseOnEsc={true}>
                     <div className="flex justify-between">
-                        <p className="text-xl pb-7">Pixalive</p>
-                        <button id="pixalive-modal-close" onClick={closeModal} className="pb-7">X</button>
+                        <p className="text-2xl pb-7 font bold">Pixalive</p>
+                        <button id="pixalive-modal-close" onClick={closeModal} className="pb-7 text-4xl text-blue-500">X</button>
                     </div>
-                    <p>A free, multi-user, real-time editor for animated sprites and pixel art</p>
-                    <button onClick={() => window.location.href= pixaliveURL} className="bg-gray-300">View Editor</button>
+                    <img className="border-2 border-white rounded-lg pb-3" src="/pixalive.PNG" alt="art canvas with pixel art" />
+                    <div>
+                        <p>Pixalive is a multi user, real-time editor for animated sprites and pixel art developed by a team 
+                            of four developers in 3 weeks.
+                        </p>
+                        <div className="flex justify-center p-4">
+                            <button onClick={() => window.location.href= pixaliveURL} className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3">Visit Site</button>
+                        </div>
+                        <p className="py-2">
+                            Tech Stack: React, Socket.io, HTML Canvas, Express.js
+                        </p>
+                        <p>Responsibilities:</p>
+                        <ul>
+                            <li>Implemented socket.io to allow for remote real-time collaboration with multiple users</li>
+                            <li>Incorporated drawing graphics using HTML canvas</li>
+                            <li>Developed front-end components using React and React Hooks</li>
+                        </ul>
+                    </div>
                 </Modal>
             </div>
             <div id="project-3">
