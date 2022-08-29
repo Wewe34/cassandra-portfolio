@@ -29,7 +29,7 @@ const Projects = () => {
     return (
         <div id="projects" className="mx-3 pb-3 bg-white bg-opacity-70 rounded-lg md:max-w-2xl md:m-auto">
             <p className="text-4xl pb-3 mb-3 py-10 font-bold line-through">PORTFOLIO</p>
-            <p className="pb-3 mx-3 italic">I love creating interactive visual applications.</p>
+            <p className="pb-5 mx-3 italic">I love creating interactive visual applications.</p>
             <p className="pb-3">Check out some of my projects below.</p>
             <p className="pb-3">Visit my  
                         <a href={myGithubURL} className="pl-1">
@@ -112,9 +112,8 @@ const Projects = () => {
                     <div className="md:max-w-2xl md:m-auto">
                         <img className="border-2 border-white rounded-lg pb-3" src="/pixalive.PNG" alt="art canvas with pixel art" />
                         <div>
-                            <p>Pixalive is a multi user, real-time editor for animated sprites and pixel art developed by a team 
-                                of four developers in 3 weeks.
-                            </p>
+                            <p>Pixalive is a multi user, real-time editor for animated sprites and pixel art.</p>
+                            <p>Developed by a team of four developers in 3 weeks.</p>
                             <div className="flex justify-center p-4">
                                 <button onClick={() => window.location.href= pixaliveURL} className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3">Visit Site</button>
                             </div>
