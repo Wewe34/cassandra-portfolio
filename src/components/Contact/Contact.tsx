@@ -4,7 +4,7 @@ import { myGithubURL, myLinkedInURL, myEmail } from "../../utils/constants";
 const Contact = () => {
     return (
         <div className="bg-yellow-400 p-3 mt-10">
-            <div className="flex justify-center justify-around">
+            <div className="flex justify-center justify-evenly">
                 <img 
                     src="/linkedin-logo.png" 
                     alt="blue square with white letters"
