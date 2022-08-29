@@ -6,20 +6,19 @@ const Contact = () => {
         <div className="bg-yellow-400 p-3 mt-10">
             <div className="flex justify-center justify-evenly">
                 <img 
-                    src="/linkedin-logo.png" 
+                    src="/LI-Logo.png" 
                     alt="blue square with white letters"
-                    className="w-12 my-3 mx-2"
+                    className="w-22 h-6 my-4 mx-2"
                     onClick={() => window.location.href = myLinkedInURL} />
                 <img 
-                    src="/octocat.jpg" 
+                    src="/GitHub_Logo.png" 
                     alt="cartoon person in black cat suit"
-                    className="w-12 my-3 mx-2 rounded-md"
+                    className="w-20 h-8 my-3 mx-2 rounded-md"
                     onClick={() => window.location.href = myGithubURL} />
-                <img 
-                    src="/mail.png" 
-                    alt="black mail icon"
-                    className="w-10 my-3 mx-2" 
-                    onClick={() => window.location.href = myEmail}/>
+
+                <a 
+                    href={myEmail}
+                    className="text-blue-600 font-bold text-xl my-4 mx-2">Email Me</a>
             </div>
         </div>
     )
