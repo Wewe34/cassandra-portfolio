@@ -3,7 +3,7 @@ import "./Skills.css";
 
 const Skills = () => {
     return (
-        <div className="mt-2 px-2 bg-white bg-opacity-70 mx-3 pt-3 rounded-lg">
+        <div className="mt-2 px-2 bg-white bg-opacity-70 mx-3 pt-3 rounded-lg md:max-w-2xl md:m-auto">
             <p className="text-4xl py-7 font-bold line-through">SKILLS</p>
             <div className="pb-3 mx-3">
                 <p className="pb-3 italic">I'm not scared to say "I don't know."</p>

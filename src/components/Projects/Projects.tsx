@@ -27,7 +27,7 @@ const Projects = () => {
     }
 
     return (
-        <div id="projects" className="mx-3 pb-3 bg-white bg-opacity-70 rounded-lg">
+        <div id="projects" className="mx-3 pb-3 bg-white bg-opacity-70 rounded-lg md:max-w-2xl md:m-auto">
             <p className="text-4xl pb-3 mb-3 py-10 font-bold line-through">PORTFOLIO</p>
             <p className="pb-3 mx-3 italic">I love creating interactive visual applications.</p>
             <p className="pb-3">Check out some of my projects below.</p>
@@ -55,31 +55,33 @@ const Projects = () => {
                         <p className="text-2xl pb-7 font bold">Defending Dory</p>
                         <button id="defending-dory-modal-close" onClick={closeModal} className="pb-7 text-4xl text-blue-500">X</button>
                     </div>
-                    <img 
-                        className="border-2 border-white rounded-lg pb-3" 
-                        src="/defending-dory.PNG" 
-                        alt="three sharks surround a fish underwater" />
-                    <p>Defending Dory is a single player dodge game made for desktop.</p>
-                    <div className="flex justify-center">
-                        <button 
-                            onClick={() => window.location.href= defendingDoryURL} 
-                            className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3 m-4">
-                                Visit Site
-                        </button>
-                    </div>
-                    <div>
-                        <p className="py-2">
-                            Tech Stack: JavaScript, Phaser 3 (HTML5 game framework), Express.js
-                        </p>
-                        <p className="py-2">Role: Sole Developer</p>
-                        <p>Responsibilities:</p>
-                        <ul>
-                            <li>Utilized Phaser.js framework in order to configure gaming objects, sprites and scenes</li>
-                            <li>Created customized methods to allow for functionality for game object</li>
-                            <li>Incorporated physics on colliding sprite objects</li>
-                            <li>Served up static files with Express.js</li>
-                            <li>Customized and edited assets with Affinity Photo (Professional Photo Editing Software)</li>
-                        </ul>
+                    <div className="md:max-w-2xl md:m-auto">
+                        <img 
+                            className="border-2 border-white rounded-lg pb-3" 
+                            src="/defending-dory.PNG" 
+                            alt="three sharks surround a fish underwater" />
+                        <p>Defending Dory is a single player dodge game made for desktop.</p>
+                        <div className="flex justify-center">
+                            <button 
+                                onClick={() => window.location.href= defendingDoryURL} 
+                                className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3 m-4">
+                                    Visit Site
+                            </button>
+                        </div>
+                        <div>
+                            <p className="py-2">
+                                Tech Stack: JavaScript, Phaser 3 (HTML5 game framework), Express.js
+                            </p>
+                            <p className="py-2">Role: Sole Developer</p>
+                            <p>Responsibilities:</p>
+                            <ul>
+                                <li>Utilized Phaser.js framework in order to configure gaming objects, sprites and scenes</li>
+                                <li>Created customized methods to allow for functionality for game object</li>
+                                <li>Incorporated physics on colliding sprite objects</li>
+                                <li>Served up static files with Express.js</li>
+                                <li>Customized and edited assets with Affinity Photo (Professional Photo Editing Software)</li>
+                            </ul>
+                        </div>
                     </div>
                 </Modal>
             </div>
@@ -103,23 +105,25 @@ const Projects = () => {
                         <p className="text-2xl pb-7 font bold">Pixalive</p>
                         <button id="pixalive-modal-close" onClick={closeModal} className="pb-7 text-4xl text-blue-500">X</button>
                     </div>
-                    <img className="border-2 border-white rounded-lg pb-3" src="/pixalive.PNG" alt="art canvas with pixel art" />
-                    <div>
-                        <p>Pixalive is a multi user, real-time editor for animated sprites and pixel art developed by a team 
-                            of four developers in 3 weeks.
-                        </p>
-                        <div className="flex justify-center p-4">
-                            <button onClick={() => window.location.href= pixaliveURL} className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3">Visit Site</button>
+                    <div className="md:max-w-2xl md:m-auto">
+                        <img className="border-2 border-white rounded-lg pb-3" src="/pixalive.PNG" alt="art canvas with pixel art" />
+                        <div>
+                            <p>Pixalive is a multi user, real-time editor for animated sprites and pixel art developed by a team 
+                                of four developers in 3 weeks.
+                            </p>
+                            <div className="flex justify-center p-4">
+                                <button onClick={() => window.location.href= pixaliveURL} className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3">Visit Site</button>
+                            </div>
+                            <p className="py-2">
+                                Tech Stack: React, Socket.io, HTML Canvas, Express.js
+                            </p>
+                            <p>Responsibilities:</p>
+                            <ul>
+                                <li>Implemented socket.io to allow for remote real-time collaboration with multiple users</li>
+                                <li>Incorporated drawing graphics using HTML canvas</li>
+                                <li>Developed front-end components using React and React Hooks</li>
+                            </ul>
                         </div>
-                        <p className="py-2">
-                            Tech Stack: React, Socket.io, HTML Canvas, Express.js
-                        </p>
-                        <p>Responsibilities:</p>
-                        <ul>
-                            <li>Implemented socket.io to allow for remote real-time collaboration with multiple users</li>
-                            <li>Incorporated drawing graphics using HTML canvas</li>
-                            <li>Developed front-end components using React and React Hooks</li>
-                        </ul>
                     </div>
                 </Modal>
             </div>
