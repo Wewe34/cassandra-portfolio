@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const AboutMe = () => {
+
     return (
         <div className="pb-20 md:max-w-2xl md:m-auto">
             <p className="text-left mx-4 text-5xl mt-12 font-bold text-blue-500">

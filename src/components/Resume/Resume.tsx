@@ -1,4 +1,5 @@
 import React from "react";
+import { myLinkedInURL } from "../../utils/constants";
 import "./Resume.css";
 
 const Resume = () => {
@@ -8,7 +9,11 @@ const Resume = () => {
                 <p className="text-4xl pb-3 font-bold line-through pt-10">RESUME</p>
                 <div id="work-experience" className="mx-3">
                     <p className="pb-3 italic">I'm loving my growth.</p>
-                    <p className="pb-3">Visit my <span className="font-bold underline text-blue-500">LinkedIn</span>.</p>
+                    <p className="pb-3">Visit my 
+                        <a href={myLinkedInURL} className="pl-1">
+                            <span className="font-bold underline text-blue-500">LinkedIn</span>
+                        </a>.
+                    </p>
                     <p className="text-2xl font-bold pb-3">Work Experience</p>
                     <div className="text-left mx-2 bg-white rounded-lg bg-opacity-70">
                         <div id="job-1" className="mx-3">

@@ -1,6 +1,6 @@
 import React, { SyntheticEvent, useState } from "react";
 import Modal from 'react-modal';
-import { defendingDoryURL, pixaliveURL } from "../../utils/constants";
+import { defendingDoryURL, myGithubURL, pixaliveURL } from "../../utils/constants";
 
 
 const Projects = () => {
@@ -31,7 +31,11 @@ const Projects = () => {
             <p className="text-4xl pb-3 mb-3 py-10 font-bold line-through">PORTFOLIO</p>
             <p className="pb-3 mx-3 italic">I love creating interactive visual applications.</p>
             <p className="pb-3">Check out some of my projects below.</p>
-            <p className="pb-3">Visit my <span className="font-bold underline text-blue-500">Github</span> to see more projects.</p>
+            <p className="pb-3">Visit my  
+                        <a href={myGithubURL} className="pl-1">
+                            <span className="font-bold underline text-blue-500">Github</span>
+                        </a> to see more projects.
+            </p>
             <div id="project-1" className="mb-4 bg-black rounded-lg px-3 mx-3">
                 <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Defending Dory</p>
                 <img 
