@@ -6,7 +6,7 @@ const Resume = () => {
     return (
         <div className="py-20 md:max-w-2xl md:m-auto">
             <div id="resume-container" className="bg-white bg-opacity-70 rounded-lg mx-3 pb-3">
-                <p className="text-4xl pb-3 font-bold line-through pt-10">RESUME</p>
+                <p className="text-4xl pb-3 font-bold pt-10">RESUME</p>
                 <div id="work-experience" className="mx-3">
                     <p className="pb-5 pt-2 italic">I'm loving my growth.</p>
                     <p className="pb-3">Visit my 

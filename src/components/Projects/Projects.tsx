@@ -28,7 +28,7 @@ const Projects = () => {
 
     return (
         <div id="projects" className="mx-3 pb-3 bg-white bg-opacity-70 rounded-lg md:max-w-2xl md:m-auto">
-            <p className="text-4xl pb-3 mb-3 py-10 font-bold line-through">PORTFOLIO</p>
+            <p className="text-4xl pb-3 mb-3 py-10 font-bold">PORTFOLIO</p>
             <p className="pb-5 mx-3 italic">I love creating interactive visual applications.</p>
             <p className="pb-3">Check out some of my projects below.</p>
             <p className="pb-3">Visit my  
