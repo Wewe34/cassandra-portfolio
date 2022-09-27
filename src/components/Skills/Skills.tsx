@@ -44,20 +44,6 @@ const Skills = () => {
                         <div className="w-3/4 bg-blue-500"></div>
                     </div>
                 </div>
-
-                <div className="pb-3 mb-2 bg-black rounded-lg">
-                    <p className="text-left pl-3 pt-2 text-lg font-bold text-yellow-400">C#... 65%</p>
-                    <div className="bar bg-white mx-4 my-2">
-                        <div className="w-4/6 bg-blue-500"></div>
-                    </div>
-                </div>
-
-                <div className="pb-3 mb-2 bg-black rounded-lg">
-                    <p className="text-left pl-3 pt-2 text-lg font-bold text-yellow-400">Unity... 60%</p>
-                    <div className="bar bg-white mx-4 my-2">
-                        <div className="w-3/5 bg-blue-500"></div>
-                    </div>
-                </div>
             </div>
         </div>
     )
