@@ -3,3 +3,7 @@ export const pixaliveURL : string = "https://pixalive.herokuapp.com";
 export const myLinkedInURL : string = "https://www.linkedin.com/in/cassandraterry/";
 export const myGithubURL : string = "https://github.com/Wewe34";
 export const myEmail : string = "mailto:cassandra34terry@gmail.com";
+export const creameryURL: string = "https://github.com/Wewe34/TuitionReimbursementSystem";
+export const caneURL: string = "https://github.com/cane-banking/projectTwo";
+export const candyURL: string = "https://github.com/camc-graceshopper-project/International-Candy-Market_e_commerce";
+export const portfolioURL: string = "http://cassiebribri.com";
