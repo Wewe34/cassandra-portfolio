@@ -64,8 +64,8 @@ const Projects = () => {
                             <span className="font-bold underline text-blue-500">Github</span>
                         </a> to see more projects.
             </p>
-            <div id="project-1" className="mb-4 bg-black rounded-lg px-3 mx-3">
-                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Defending Dory</p>
+            <div id="project-1" className="mb-4 bg-white rounded-lg px-3 mx-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-black">Defending Dory</p>
                 <img 
                     className="border-2 border-white rounded-lg" 
                     src="/defending-dory.PNG" 
@@ -73,7 +73,7 @@ const Projects = () => {
                 <div className="flex justify-center justify-around">
                     <button id="defending-dory-details" 
                             onClick={openModal} 
-                            className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                            className="text-xl text-blue-500 p-3 m-4 bg-white border-2 rounded-lg font-bold">
                                 View Details
                     </button>
                 </div>
@@ -117,14 +117,14 @@ const Projects = () => {
                     </div>
                 </Modal>
             </div>
-            <div id="project-2" className="mb-7 bg-black rounded-lg px-3 mx-3">
-                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Pixalive</p>
+            <div id="project-2" className="mb-7 bg-white rounded-lg px-3 mx-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-black">Pixalive</p>
                 <img className="border-2 border-white rounded-lg" src="/pixalive.PNG" alt="art canvas with pixel art" />
                 <div className="flex justify-center justify-around">
                     <button 
                         id="pixalive-details" 
                         onClick={openModal} 
-                        className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                        className="text-xl text-blue-500 p-3 m-4 bg-white border-2 rounded-lg font-bold">
                             View Details
                     </button>
                 </div>
@@ -158,14 +158,14 @@ const Projects = () => {
                     </div>
                 </Modal>
             </div>
-            <div id="project-3" className="mb-7 bg-black rounded-lg px-3 mx-3">
-                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Cane Banking</p>
+            <div id="project-3" className="mb-7 bg-white rounded-lg px-3 mx-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-black">Cane Banking</p>
                 <img className="border-2 border-white rounded-lg" src="/canebanking.png" alt="man on piggy bank" />
                 <div className="flex justify-center justify-around">
                     <button 
                         id="cane-details" 
                         onClick={openModal} 
-                        className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                        className="text-xl text-blue-500 p-3 m-4 bg-white border-2 rounded-lg font-bold">
                             View Details
                     </button>
                 </div>
@@ -210,14 +210,14 @@ const Projects = () => {
                     </div>
                 </Modal>
             </div>
-            <div id="project-4" className="mb-7 bg-black rounded-lg px-3 mx-3">
-                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Cassie's Creamery Tuition Reimbursement System</p>
+            <div id="project-4" className="mb-7 bg-white rounded-lg px-3 mx-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-black">Cassie's Creamery Tuition Reimbursement System</p>
                 <img className="border-2 border-white rounded-lg" src="/creamery.png" alt="ice cream cones" />
                 <div className="flex justify-center justify-around">
                     <button 
                         id="creamery-details" 
                         onClick={openModal} 
-                        className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                        className="text-xl text-blue-500 p-3 m-4 bg-white border-2 rounded-lg font-bold">
                             View Details
                     </button>
                 </div>
@@ -259,14 +259,14 @@ const Projects = () => {
                     </div>
                 </Modal>
             </div>
-            <div id="project-5" className="mb-7 bg-black rounded-lg px-3 mx-3">
-                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">International Candy</p>
+            <div id="project-5" className="mb-7 bg-white rounded-lg px-3 mx-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-black">International Candy</p>
                 <img className="border-2 border-white rounded-lg" src="/icandy.png" alt="candy login screen" />
                 <div className="flex justify-center justify-around">
                     <button 
                         id="candy-details" 
                         onClick={openModal} 
-                        className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                        className="text-xl text-blue-500 p-3 m-4 bg-white border-2 rounded-lg font-bold">
                             View Details
                     </button>
                 </div>
@@ -301,14 +301,14 @@ const Projects = () => {
                     </div>
                 </Modal>
             </div>
-            <div id="project-6" className="mb-7 bg-black rounded-lg px-3 mx-3">
-                <p className="font-bold text-left text-2xl pl-3 py-4 text-yellow-400">Portfolio</p>
+            <div id="project-6" className="mb-7 bg-white rounded-lg px-3 mx-3">
+                <p className="font-bold text-left text-2xl pl-3 py-4 text-black">Portfolio</p>
                 <img className="border-2 border-white rounded-lg" src="/portfolio.png" alt="woman smiling" />
                 <div className="flex justify-center justify-around">
                     <button 
                         id="portfolio-details" 
                         onClick={openModal} 
-                        className="text-xl text-blue-500 p-3 m-4 bg-white rounded-lg font-bold">
+                        className="text-xl text-blue-500 p-3 m-4 bg-white border-2 rounded-lg font-bold">
                             View Details
                     </button>
                 </div>

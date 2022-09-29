@@ -3,7 +3,7 @@ import { myGithubURL, myLinkedInURL, myEmail } from "../../utils/constants";
 
 const Contact = () => {
     return (
-        <div className="bg-yellow-400 p-3 mt-10">
+        <div className="bg-white p-3 mt-10">
             <div className="flex justify-center justify-evenly">
                 <img 
                     src="/LI-Logo.png" 
