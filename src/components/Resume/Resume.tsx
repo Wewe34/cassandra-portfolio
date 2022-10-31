@@ -21,14 +21,12 @@ const Resume = () => {
                             <p>Software Engineer</p>
                             <p className="text-sm pb-3">December 2020 - present</p>
                             <ul>
-                                <li>Contracted out to a company to help produce and deliver a web application to their clients</li>
                                 <li>
-                                    Expanded on my existing skills and acquired new knowledge of technologies by undergoing a 
-                                    13-week training in fullstack React and React Native applications
+                                    Collaborated with team members to produce fullstack application projects using React, React Native,
+                                    TypeScript, Express for backend API endpoints and AWS Cloud Services
                                 </li>
-                                <li>Worked with team members to produce fullstack application projects</li>
-                                <li>Fixed bugs and found solutions in timely manner</li>
                                 <li>Showcased soft skills of public speaking by demoing team project to clients and other teams</li>
+                                <li>Contracted out to a company to help produce and deliver a web application to their clients from scratch</li>
                             </ul>
                         </div>
                         <div id="job-1" className="mx-3">

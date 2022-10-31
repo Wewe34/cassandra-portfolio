@@ -246,7 +246,7 @@ const Projects = () => {
                             </p>
                             <p>Responsibilities:</p>
                             <ul>
-                                <li>CBuilt React components to allow for a single page application and incorporated React Hooks to take advantage of React's state and lifecycle features in a functional component.</li>
+                                <li>Built React components to allow for a single page application and incorporated React Hooks to take advantage of React's state and lifecycle features in a functional component.</li>
                                 <li>Created DynamboDb tables.</li>
                                 <li>Queried AWS DynamoDB database by using the aws-sdk Document Client to perform scans, query, get, delete and update operations.</li>
                                 <li>Implemented Redux to manage state in a centralized location where all React components have access to that state.</li>
@@ -325,7 +325,7 @@ const Projects = () => {
                         <img className="border-2 border-white rounded-lg pb-3" src="/portfolio.png" alt="woman smiling" />
                         <div>
                             <p>Personal Portfolio site demonstrating software engineering skills and work history.</p>
-                            <p>Developed by a team of four developers in 2 weeks.</p>
+                            <p>Sole Developer</p>
                             <div className="flex justify-center p-4">
                                 <button onClick={() => window.location.href= portfolioURL} className="bg-white text-blue-500 text-lg border-2 rounded-lg p-3">Visit Site</button>
                             </div>
