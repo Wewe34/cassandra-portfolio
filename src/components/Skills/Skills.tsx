@@ -11,16 +11,16 @@ const Skills = () => {
                                 and a lifelong curious learner. 
                 </p>
                 <div className="pb-3 mb-2 bg-white rounded-lg">
-                    <p className="text-left pl-3 pt-2 text-lg font-bold text-black">React... 80%</p>
+                    <p className="text-left pl-3 pt-2 text-lg font-bold text-black">React... 90%</p>
                     <div className="bar bg-white border-2 mx-4 my-2">
-                        <div className="w-4/5 bg-blue-500"></div>
+                        <div className="w-11/12 bg-blue-500"></div>
                     </div>
                 </div>
 
                 <div className="pb-3 mb-2 bg-white rounded-lg">
-                    <p className="text-left pl-3 pt-2 text-lg font-bold text-black">JavaScript, TypeScript... 85%</p>
+                    <p className="text-left pl-3 pt-2 text-lg font-bold text-black">JavaScript, TypeScript... 90%</p>
                     <div className="bar bg-white border-2 mx-4 my-2">
-                        <div className="w-5/6 bg-blue-500"></div>
+                        <div className="w-11/12 bg-blue-500"></div>
                     </div>
                 </div>
 
