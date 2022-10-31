@@ -38,7 +38,7 @@ const Resume = () => {
                                 <li>Created GraphQL queries to consume data from backend</li>
                                 <li>
                                     Lead the process of releasing new features to the clients by making request of changes to go
-                                    into production and deploying application into production through Azure DevOps
+                                    into production and deploying application into production
                                 </li>
                                 <li>Fixed bugs and found solutions in timely manner</li>
                                 <li>
